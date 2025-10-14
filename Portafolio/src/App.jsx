@@ -13,7 +13,7 @@ function App() {
   ];
 
   return (
-    <Router>
+    <Router basename="/Portafolio">
       <Navbar links={navLinks} logoText="HailAngelDev" />
       <div style={{   paddingTop: '64px',
         paddingLeft: '1rem',
