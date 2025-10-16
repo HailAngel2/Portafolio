@@ -1,0 +1,11 @@
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6); /* fondo semitransparente para texto */
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(0) invert(1); /* flechas blancas */
+}

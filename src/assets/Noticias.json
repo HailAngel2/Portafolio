@@ -1,0 +1,25 @@
+[
+  {
+    "titulo": "Nueva sucursal inaugurada",
+    "fecha": "2025-10-16",
+    "contenido": "Suburbia abre una nueva sucursal en Santiago con servicios ampliados.",
+    "imagen": "Apertura.webp"
+  },
+  {
+    "titulo": "Ataque a NPM: Se vieron comprometidos paquetes con más de 2.000 millones de descargas semanales",
+    "fecha": "2025-09-10",
+    "contenido": "En un ciberataque sin precedentes, la cuenta de un prominente mantenedor de npm fue hackeada a través de un esquema de phishing, lo que llevó a la afectación de 18 paquetes ampliamente utilizados con más de 2 mil millones de descargas semanales combinadas. El ataque, que comenzó el 8 de septiembre de 2025, involucró la inyección de código malicioso diseñado para secuestrar transacciones de criptomonedas directamente desde los navegadores de los usuarios. Este incidente, considerado por algunas personas como uno de los ataques a la cadena de suministro más grandes de la historia, subraya los riesgos constantes y crecientes que enfrentan los desarrolladores y los usuarios finales.",
+    "imagen": "hacker.webp"
+  },
+  {
+    "titulo": "Noticia de prueba",
+    "fecha": "2024-10-10",
+    "contenido": "Esta es una prueba, con solo agregar una imagen en assets y poner el nombre de la imagen en el json deberia cargar una imagen negra",
+    "imagen":"a.png"
+  },
+  {
+    "titulo": "Noticia de prueba",
+    "fecha": "2025-10-20",
+    "contenido": "Esta es una prueba, arriba deberia estar una imagen default (gris)."
+  }
+]

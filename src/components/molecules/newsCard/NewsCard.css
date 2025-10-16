@@ -1,0 +1,31 @@
+.news-card {
+  background: #f7f7f7;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+  transform: scale(1.02);
+}
+
+.news-image {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.news-content {
+  text-align: center;
+}
+
+.news-date {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}

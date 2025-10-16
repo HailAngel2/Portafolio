@@ -1,0 +1,40 @@
+/* Navbar.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; /* esto hace que el ancho sea exactamente del viewport */
+  background-color: #323750;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  box-sizing: border-box; /* muy importante para que padding no aumente ancho */
+}
+
+.navbar-logo {
+  font-size: 1.25rem; /* 20px */
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem; /* espacio entre links */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-links li a:hover {
+  color: #888888; /* gris claro al pasar el mouse */
+}
